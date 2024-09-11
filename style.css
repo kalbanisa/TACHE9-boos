@@ -144,8 +144,31 @@ html::-webkit-scrollbar{
   }
   #about{
     height: 120vh;
+    margin-bottom: 12rem;
+  }
+
+}
+@media screen and (max-width:1280px){
+  #about p{
+    font-size: 15px;
+  }
+  #about{
+    height: 145vh;
+    margin-bottom: 12rem;
+  }
+  .sam{
+    margin-top: 0rem !important;
+  }
+  .heading3{
+    margin-top: 14rem !important;
+
+  }
+  #home {
+    
+    height: 124vh;
   }
 }
+
 /* about */
 
 /* top cards */
